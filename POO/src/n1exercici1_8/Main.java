@@ -11,15 +11,23 @@ public class Main {
 		
 		Animal a1 = new Animal();
 		a1.correr();
+		a1.correr(0);
+		a1.correr(0, 0);
 		
-		Amphibian amp = new Amphibian();
-		amp.moure();
-		amp.menjar();
-		amp.respirar();
+		Gat g1 = new Gat();
+		g1.correr();
+		g1.correr(4);
+		g1.correr(0);
+		g1.correr(0, 0);
 		
-		Frog rana = new Frog();
-		rana.moure();
-		rana.menjar();
-		rana.respirar();
+		Frog ranita = new Frog();
+		ranita.menjar();
+		ranita.moure();
+		ranita.respirar();
+		
+		Amphibian am = ranita;
+		am.menjar();
+		am.moure();
+		am.respirar();
 	}
 }
