@@ -24,6 +24,7 @@ public class Main {
 		ranita.menjar();
 		ranita.moure();
 		ranita.respirar();
+		ranita.saltar();
 		
 		Amphibian am = ranita;
 		am.menjar();
